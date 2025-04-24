@@ -20,7 +20,7 @@ layout:
 
 # Non-local Variables and Styles (pro)
 
-Non-local Variables and Styles
+## Non-local Variables and Styles
 
 You can now split up your Tokens across several Figma files connected to styles and variables and maintain the connected references!
 
