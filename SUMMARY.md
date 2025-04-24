@@ -5,6 +5,9 @@
 * [Tokens Studio Plugin for Figma](README.md)
 * [Install the Figma Plugin](get-started/install-figma-plugin.md)
 * [Pro Licence for the Figma Plugin](get-started/pro-licence.md)
+* [Join the Slack Community](https://tokens.studio/slack)
+* [Feature Requests - Featurebase](https://feedback.tokens.studio/?b=65971b8c143e3c7207d29602)
+* [Changelog - Featurebase](https://feedback.tokens.studio/changelog)
 
 ## Design Token Fundamentals <a href="#fundamentals" id="fundamentals"></a>
 
@@ -147,6 +150,7 @@
 ## Troubleshooting <a href="#troubleshoot" id="troubleshoot"></a>
 
 * [Reset Tokens from Dev Console](troubleshoot/reset-tokens-console.md)
+* [Tokens Studio Status](https://uptime.tokens.studio/)
 
 ## Open Source
 
