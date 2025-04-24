@@ -20,7 +20,7 @@ layout:
 
 # Non-local Variables and Styles (pro)
 
-Non-local Variables and Styles
+## Non-local Variables and Styles
 
 You can now split up your Tokens across several Figma files connected to styles and variables and maintain the connected references!
 
@@ -55,6 +55,8 @@ To follow along this guide, you can duplicate a copy of the Figma playground fil
 
 
 
+***
+
 ### Common terms
 
 Here are some terms you'll see in our docs about this feature.
@@ -81,11 +83,11 @@ If you edit Tokens connected to non-local styles/variables in this file, the upd
 
 We refer to Tokens with [hard-coded values](../manage-tokens/token-values/#hard-coded-value) as **Primitive Tokens**
 
+
+
 #### Decision Tokens
 
 We refer to Tokens with [values that reference another Token](../manage-tokens/token-values/references.md) as a **Decision Token** as the new name, or alias, describes how the design decision is intended to be used in the system.
-
-
 
 _The image below shows an example of both Primitive (left)  and Decision Tokens (right) in the Plugin._
 
