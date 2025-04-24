@@ -136,7 +136,7 @@ You may want to map out the flow of information between the themes in your Token
 
 In this guide, we will assume Primitive Tokens are referenced inside Decision Tokens for a single brand, with a light and dark color mode.&#x20;
 
-
+<figure><img src="../.gitbook/assets/plugin-themeSetup-V2-4-2.png" alt=""><figcaption></figcaption></figure>
 
 #### Theme Group 1 - Primitives
 
