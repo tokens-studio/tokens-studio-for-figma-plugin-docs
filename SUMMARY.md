@@ -22,7 +22,7 @@
   * [Inspect Page - Figma Plugin Tour](fundamentals/tokens-studio-plugin-for-figma-tour/inspect-page-figma-plugin-tour.md)
   * [Settings Page - Figma Plugin Tour](fundamentals/tokens-studio-plugin-for-figma-tour/settings-page-figma-plugin-tour.md)
 
-## Token Managment <a href="#manage-tokens" id="manage-tokens"></a>
+## Token Management <a href="#manage-tokens" id="manage-tokens"></a>
 
 * [Token Types](manage-tokens/token-types/README.md)
   * [Asset](manage-tokens/token-types/asset.md)
