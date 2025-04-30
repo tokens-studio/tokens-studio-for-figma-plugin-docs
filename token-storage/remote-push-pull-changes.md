@@ -1,6 +1,6 @@
 ---
 icon: arrow-up-from-bracket
-cover: ../.gitbook/assets/SYNC-OVERVIEW-page-header-sync-provider.png
+cover: ../.gitbook/assets/pageHeader-sync-remote-overview.png
 coverY: 0
 layout:
   cover:

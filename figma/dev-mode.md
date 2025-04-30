@@ -1,6 +1,6 @@
 ---
 icon: code
-cover: ../.gitbook/assets/page-header-figma-ts-devMode (1).png
+cover: ../.gitbook/assets/pageHeader-figma-ts-devMode.png
 coverY: 0
 layout:
   cover:

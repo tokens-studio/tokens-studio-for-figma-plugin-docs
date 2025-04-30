@@ -1,6 +1,6 @@
 ---
 icon: folder
-cover: ../.gitbook/assets/FOLDER-page-header-sync-provider.png
+cover: ../.gitbook/assets/pageHeader-sync-remote-multi-file.png
 coverY: 0
 layout:
   cover:

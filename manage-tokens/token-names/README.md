@@ -1,6 +1,6 @@
 ---
 icon: signature
-cover: ../../.gitbook/assets/pageHeader-anatomy-tokenName.png
+cover: broken-reference
 coverY: 0
 layout:
   cover:
@@ -118,7 +118,7 @@ For example:\
 
 #### Alias Tokens&#x20;
 
-When a new Token is create, its [Value can reference another Token](../token-values/references.md). The new Token created is sometimes referred to as an Alias Token, because it's purpose is to provide an alias, or a new name, or an existing design decision with some context about how the design decision is intended to be used in the system.&#x20;
+When a new Token is created, its [Value can reference another Token](../token-values/references.md). The new Token created is sometimes referred to as an Alias Token, because it's purpose is to provide an alias, or a new name, or an existing design decision with some context about how the design decision is intended to be used in the system.&#x20;
 
 This new name, or alias, is also referred to as its semantic name in the community.&#x20;
 

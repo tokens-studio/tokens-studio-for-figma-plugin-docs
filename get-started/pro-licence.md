@@ -83,7 +83,7 @@ You can update the billing information, including the e-mail.\
 
 ***
 
-<figure><img src="../.gitbook/assets/page-header-themes-tsOnly.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pageHeader-themes-tsOnly.png" alt=""><figcaption></figcaption></figure>
 
 ### Themes Management
 

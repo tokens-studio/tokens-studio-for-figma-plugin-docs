@@ -1,6 +1,6 @@
 ---
 icon: repeat
-cover: ../../.gitbook/assets/SYNC-OVERVIEW-page-header-sync-provider.png
+cover: ../../.gitbook/assets/pageHeader-sync-remote-overview.png
 coverY: 0
 layout:
   cover:
@@ -20,7 +20,7 @@ layout:
 
 # Remote Token Storage Integrations
 
-## Token Storage
+## Remote Token Storage
 
 By default, Tokens Studio will store your [Design Tokens locally](../local.md) in the Figma file you are working in, but their true power is unleashed when they can be stored outside of a design tool and synced with code.
 

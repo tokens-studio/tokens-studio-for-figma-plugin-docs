@@ -1,6 +1,6 @@
 ---
 hidden: true
-cover: ../.gitbook/assets/page-header-themes-tsOnly.png
+cover: ../.gitbook/assets/pageHeader-themes-tsOnly.png
 coverY: 0
 layout:
   cover:
@@ -74,7 +74,19 @@ ADD INFOGRAPHIC&#x20;
 
 
 
-#### Categories of Themes
+### HOW TO CREATE  A THEME IN GENERAL
+
+* Pro licence
+* Themes manager
+* Do the thing
+
+
+
+
+
+
+
+### Categories of Themes
 
 There are two categories of Themes you can work with in the context of Design Tokens:
 
@@ -83,11 +95,35 @@ There are two categories of Themes you can work with in the context of Design To
 
 The way you configure Themes in the Plugin is different depending on which category of Theme you are creating.&#x20;
 
-#### 1. Themes that switch
+### 1. Themes that switch
 
-When thinking about Themes, most people focus on the parts of a Token Structure that support switching between options controlled by the users of an interface, such as a light or dark mode preference. These Themes are crafted to tell the Plugin to enable either this (light mode Token Sets) or that (dark mode Token Sets).&#x20;
+When thinking about Themes, most people focus on the parts of a Token Structure that support switching between options controlled by the users of an interface, such as a light or dark mode preference.&#x20;
 
-Themes that switch require more than one Token Set with identical Tokens which have the same Names.&#x20;
+Themes that switch are intended to have one of the themes in this group be active at all times.&#x20;
+
+For example, a theme group for `color-modes` system would always have either the `light` or `dark` theme active depending on the user preference.&#x20;
+
+Themes that switch unlock multi-dimensional theming, which is one of the superpowers of working with Design Tokens.&#x20;
+
+#### Create Themes that switch in the Plugin
+
+In the Tokens Studio Plugin, having multiple themes in the same theme group unlocks the ability to switch between them, as no more than 1 theme within a group can be active at a time.&#x20;
+
+Ensuring that the Tokens within each theme have identical Names and Token Types tells the Plugin to look at which theme is active, and pass on that value to the rest of the system.&#x20;
+
+
+
+ADD IMAGE - LIGHT VS DARK THEME
+
+Token Sets with Identical Tokens
+
+* Ensure you have more than one Token Set which contains identical Tokens
+  * Same Token Type
+  * Token Names that match exactly (including and groups in the token path)
+
+For example, a Token Set named `color-modes/light` has identical Tokens as the `color-modes/dark` Token Set. In each set, the Tokens have unique values.&#x20;
+
+
 
 
 

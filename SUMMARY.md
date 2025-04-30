@@ -79,9 +79,11 @@
 ## Themes management <a href="#manage-themes" id="manage-themes"></a>
 
 * [Themes (pro)](manage-themes/themes-overview.md)
+* [Themes that switch](manage-themes/simple-switch-guide.md)
 * [Copy of Themes (pro) - working](manage-themes/copy-of-themes-pro-working.md)
 * [Detach Styles and Variables](manage-themes/detach-styles-variables.md)
 * [Attach Styles and Variables](manage-themes/attach-styles-variables.md)
+* [Multi-dimensional Theming](manage-themes/multi-dimensional-theming.md)
 
 ## Working in Figma <a href="#figma" id="figma"></a>
 
