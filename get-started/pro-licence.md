@@ -69,7 +69,17 @@ The Settings page of the plugin is where you can enter your licence key.&#x20;
 
 </details>
 
+<details>
 
+<summary>How can I change my email address on my Tokens Studio account for my pro licence access?</summary>
+
+You can change the e-mail of your Tokens Studio account at [account.tokens.studio](https://account.tokens.studio/)\
+Once logged in, you can choose 'Edit billing' in the left panel. \
+You can update the billing information, including the e-mail.\
+\
+**Note:** this e-mail is **not** linked to the actual access to the Pro features in the plugin, but only for the account page and billing related communication.&#x20;
+
+</details>
 
 ***
 
