@@ -1,6 +1,6 @@
 ---
 icon: brackets-curly
-cover: ../../.gitbook/assets/page-header-templates-tokenValue-Reference.png
+cover: ../../.gitbook/assets/pageHeader-tokenValue-Reference.png
 coverY: 0
 layout:
   cover:

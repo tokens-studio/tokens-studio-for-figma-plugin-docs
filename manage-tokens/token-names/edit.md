@@ -1,6 +1,6 @@
 ---
 icon: pen-field
-cover: ../../.gitbook/assets/page-header-anatomy-tokenName-remap.png
+cover: ../../.gitbook/assets/pageHeader-anatomy-tokenName-remap.png
 coverY: 0
 layout:
   cover:

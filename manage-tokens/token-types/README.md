@@ -1,6 +1,6 @@
 ---
 icon: paintbrush-pencil
-cover: ../../.gitbook/assets/page-header-templates-tokenType.png
+cover: broken-reference
 coverY: 0
 layout:
   cover:

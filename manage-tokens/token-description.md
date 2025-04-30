@@ -1,6 +1,6 @@
 ---
 icon: memo-circle-info
-cover: ../.gitbook/assets/page-header-templates-tokenDescription.png
+cover: ../.gitbook/assets/pageHeader-anatomy-tokenDescription.png
 coverY: 0
 layout:
   cover:

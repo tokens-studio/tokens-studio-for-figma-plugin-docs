@@ -1,6 +1,6 @@
 ---
 icon: file-heart
-cover: ../../.gitbook/assets/page-header-manageTokens-Sets@2x.png
+cover: ../../.gitbook/assets/pageHeader-manageTokens-Sets.png
 coverY: 0
 layout:
   cover:

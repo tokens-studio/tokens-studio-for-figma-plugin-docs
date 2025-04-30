@@ -1,6 +1,6 @@
 ---
 icon: list-tree
-cover: ../../.gitbook/assets/page-header-anatomy-tokenName-group.png
+cover: ../../.gitbook/assets/pageHeader-anatomy-tokenName-group.png
 coverY: 0
 layout:
   cover:

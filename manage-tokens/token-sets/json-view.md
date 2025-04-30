@@ -1,6 +1,6 @@
 ---
 icon: code-simple
-cover: ../../.gitbook/assets/page-header-manageTokens-setsJSON@2x.png
+cover: ../../.gitbook/assets/pageHeader-manageTokens-setsJSON.png
 coverY: 0
 layout:
   cover:

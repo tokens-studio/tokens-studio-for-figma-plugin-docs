@@ -1,6 +1,6 @@
 ---
 icon: function
-cover: ../../.gitbook/assets/page-header-templates-tokenValue-Math.png
+cover: ../../.gitbook/assets/pageHeader-tokenValue-Math.png
 coverY: 0
 layout:
   cover:

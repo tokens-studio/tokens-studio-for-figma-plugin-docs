@@ -1,6 +1,6 @@
 ---
 icon: input-text
-cover: ../../.gitbook/assets/page-header-anatomy-tokenName-technicalSpec.png
+cover: ../../.gitbook/assets/pageHeader-anatomy-tokenName-technicalSpec.png
 coverY: 0
 layout:
   cover:

@@ -1,6 +1,6 @@
 ---
 icon: signature
-cover: ../../.gitbook/assets/page-header-templates-tokenName.png
+cover: ../../.gitbook/assets/pageHeader-anatomy-tokenName.png
 coverY: 0
 layout:
   cover:

@@ -1,6 +1,6 @@
 ---
 icon: equals
-cover: ../../.gitbook/assets/page-header-templates-tokenValue.png
+cover: ../../.gitbook/assets/pageHeader-anatomy-tokenValue.png
 coverY: 0
 layout:
   cover:
