@@ -1,6 +1,6 @@
 ---
 icon: ruler-combined
-cover: ../../../.gitbook/assets/page-header-token-type-dimension.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-dimension.png
 coverY: 0
 layout:
   cover:

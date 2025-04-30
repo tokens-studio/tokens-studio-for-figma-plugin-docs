@@ -1,6 +1,6 @@
 ---
 icon: diamond
-cover: ../../.gitbook/assets/page-header-token-type-other.png
+cover: ../../.gitbook/assets/pageHeader-token-type-other.png
 coverY: 0
 layout:
   cover:

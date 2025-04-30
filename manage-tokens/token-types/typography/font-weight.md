@@ -1,6 +1,6 @@
 ---
 icon: bold
-cover: ../../../.gitbook/assets/page-header-token-type-font-weight.png
+cover: broken-reference
 coverY: 0
 layout:
   cover:

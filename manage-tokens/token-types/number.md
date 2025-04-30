@@ -1,6 +1,6 @@
 ---
 icon: '8'
-cover: ../../.gitbook/assets/page-header-token-type-number.png
+cover: ../../.gitbook/assets/pageHeader-token-type-number.png
 coverY: 0
 layout:
   cover:

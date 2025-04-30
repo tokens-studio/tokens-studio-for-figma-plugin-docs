@@ -1,6 +1,6 @@
 ---
 icon: font-case
-cover: ../../../.gitbook/assets/page-header-token-type-font-family.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-font-family.png
 coverY: 0
 layout:
   cover:

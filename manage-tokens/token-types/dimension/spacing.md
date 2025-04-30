@@ -1,6 +1,6 @@
 ---
 icon: left-right
-cover: ../../../.gitbook/assets/page-header-token-type-spacing (1).png
+cover: broken-reference
 coverY: 0
 layout:
   cover:

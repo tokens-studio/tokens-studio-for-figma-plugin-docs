@@ -1,6 +1,6 @@
 ---
 icon: toggle-on
-cover: ../../.gitbook/assets/page-header-token-type-boolean.png
+cover: ../../.gitbook/assets/pageHeader-token-type-boolean.png
 coverY: 0
 layout:
   cover:

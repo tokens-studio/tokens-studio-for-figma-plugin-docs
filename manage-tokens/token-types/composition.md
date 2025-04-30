@@ -1,6 +1,6 @@
 ---
 icon: diamond-exclamation
-cover: ../../.gitbook/assets/page-header-token-type-composition.png
+cover: ../../.gitbook/assets/pageHeader-token-type-composition.png
 coverY: 0
 layout:
   cover:

@@ -1,6 +1,6 @@
 ---
 icon: indent
-cover: ../../../.gitbook/assets/page-header-token-type-paragraph-indent (1).png
+cover: ../../../.gitbook/assets/pageHeader-token-type-paragraph-indent (1).png
 coverY: 0
 layout:
   cover:

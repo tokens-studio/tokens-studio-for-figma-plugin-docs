@@ -1,6 +1,6 @@
 ---
 icon: rainbow
-cover: ../../../.gitbook/assets/page-header-token-type-color-gradient.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-color-gradient.png
 coverY: 0
 layout:
   cover:

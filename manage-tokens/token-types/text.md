@@ -1,6 +1,6 @@
 ---
 icon: message-text
-cover: ../../.gitbook/assets/page-header-token-type-text.png
+cover: ../../.gitbook/assets/pageHeader-token-type-text.png
 coverY: 0
 layout:
   cover:

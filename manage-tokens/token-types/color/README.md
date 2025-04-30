@@ -1,6 +1,6 @@
 ---
 icon: palette
-cover: ../../../.gitbook/assets/page-header-token-type-color.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-color.png
 coverY: 0
 layout:
   cover:

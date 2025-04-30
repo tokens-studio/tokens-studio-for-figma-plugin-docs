@@ -1,6 +1,6 @@
 ---
 icon: diamond-half-stroke
-cover: ../../.gitbook/assets/page-header-token-type-box-shadow.png
+cover: ../../.gitbook/assets/pageHeader-token-type-box-shadow.png
 coverY: 0
 layout:
   cover:

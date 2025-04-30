@@ -104,7 +104,7 @@ The Themes feature creates additional data that can be shared with Figma, which 
 
 ***
 
-<figure><img src="../.gitbook/assets/page-header-token-type-color-modified.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/pageHeader-token-type-color-modified.png" alt=""><figcaption></figcaption></figure>
 
 ### Color modifiers
 

@@ -1,6 +1,6 @@
 ---
 icon: circle-half-stroke
-cover: ../../.gitbook/assets/page-header-token-type-opacity.png
+cover: ../../.gitbook/assets/pageHeader-token-type-opacity.png
 coverY: 0
 layout:
   cover:

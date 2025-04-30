@@ -1,6 +1,6 @@
 ---
 icon: webhook
-cover: ../../../.gitbook/assets/page-header-token-type-typography-fontFallback.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-typography-fontFallback.png
 coverY: 0
 layout:
   cover:

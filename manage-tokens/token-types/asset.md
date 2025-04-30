@@ -1,6 +1,6 @@
 ---
 icon: image-landscape
-cover: ../../.gitbook/assets/page-header-token-type-asset.png
+cover: ../../.gitbook/assets/pageHeader-token-type-asset.png
 coverY: 0
 layout:
   cover:

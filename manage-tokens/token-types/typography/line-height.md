@@ -1,6 +1,6 @@
 ---
 icon: line-height
-cover: ../../../.gitbook/assets/page-header-token-type-line-height.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-line-height.png
 coverY: 0
 layout:
   cover:

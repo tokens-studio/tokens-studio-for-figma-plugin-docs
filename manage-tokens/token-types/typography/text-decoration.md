@@ -1,6 +1,6 @@
 ---
 icon: underline
-cover: ../../../.gitbook/assets/page-header-token-type-text-decoration.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-text-decoration.png
 coverY: 0
 layout:
   cover:

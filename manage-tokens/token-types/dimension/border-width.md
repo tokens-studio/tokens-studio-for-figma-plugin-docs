@@ -1,6 +1,6 @@
 ---
 icon: border-bottom
-cover: ../../../.gitbook/assets/page-header-token-type-borderwidth.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-borderwidth.png
 coverY: 0
 layout:
   cover:

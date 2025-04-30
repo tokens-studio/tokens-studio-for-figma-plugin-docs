@@ -1,6 +1,6 @@
 ---
 icon: square-a-lock
-cover: ../../../.gitbook/assets/page-header-token-type-text-case.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-text-case.png
 coverY: 0
 layout:
   cover:

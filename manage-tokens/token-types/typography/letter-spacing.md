@@ -1,6 +1,6 @@
 ---
 icon: arrows-left-right
-cover: ../../../.gitbook/assets/page-header-token-type-letter-spacing.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-letter-spacing.png
 coverY: 0
 layout:
   cover:

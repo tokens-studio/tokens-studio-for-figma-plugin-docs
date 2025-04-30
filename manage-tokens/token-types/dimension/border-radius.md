@@ -1,6 +1,6 @@
 ---
 icon: border-top-left
-cover: ../../../.gitbook/assets/page-header-token-type-border-radius.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-border-radius.png
 coverY: 0
 layout:
   cover:

@@ -1,6 +1,6 @@
 ---
 icon: eye-dropper-half
-cover: ../../../.gitbook/assets/page-header-token-type-color-modified.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-color-modified.png
 coverY: 0
 layout:
   cover:

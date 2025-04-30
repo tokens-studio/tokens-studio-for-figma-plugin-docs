@@ -1,6 +1,6 @@
 ---
 icon: align-justify
-cover: ../../../.gitbook/assets/page-header-token-type-paragraph-spacing.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-paragraph-spacing.png
 coverY: 0
 layout:
   cover:

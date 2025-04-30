@@ -1,6 +1,6 @@
 ---
 icon: ruler-triangle
-cover: ../../../.gitbook/assets/page-header-token-type-sizing.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-sizing.png
 coverY: 0
 layout:
   cover:

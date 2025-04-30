@@ -1,6 +1,6 @@
 ---
 icon: square
-cover: ../../.gitbook/assets/page-header-token-type-border.png
+cover: ../../.gitbook/assets/pageHeader-token-type-border.png
 coverY: 0
 layout:
   cover:

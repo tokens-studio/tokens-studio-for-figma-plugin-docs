@@ -1,6 +1,6 @@
 ---
 icon: text-size
-cover: ../../../.gitbook/assets/page-header-token-type-typography.png
+cover: ../../../.gitbook/assets/pageHeader-token-type-typography.png
 coverY: 0
 layout:
   cover:
