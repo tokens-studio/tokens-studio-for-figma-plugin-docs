@@ -114,7 +114,8 @@
 
 ## Token Storage and Sync Integrations <a href="#token-storage" id="token-storage"></a>
 
-* [Local Document - Figma File Token Storage](token-storage/local.md)
+* [Local Document - Figma File Token Storage](token-storage/local/README.md)
+  * [Figma Data Limits](token-storage/local/figma-data-limit.md)
 * [Remote Token Storage Integrations](token-storage/remote/README.md)
   * [GitHub - Git Sync Provider](token-storage/remote/sync-git-github.md)
   * [GitLab - Git Sync Provider](token-storage/remote/sync-git-gitlab.md)
