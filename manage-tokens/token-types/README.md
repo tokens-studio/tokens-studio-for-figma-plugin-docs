@@ -1,6 +1,6 @@
 ---
 icon: paintbrush-pencil
-cover: broken-reference
+cover: ../../.gitbook/assets/page-header-anatomy-tokenType.png
 coverY: 0
 layout:
   cover:

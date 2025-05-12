@@ -1,5 +1,4 @@
 ---
-hidden: true
 icon: square-info
 layout:
   title:
