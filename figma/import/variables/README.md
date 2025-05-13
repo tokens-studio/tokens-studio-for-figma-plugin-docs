@@ -285,8 +285,8 @@ When you import Variables into the Plugin, it does not know the correct Token Ty
 
 This means you might have to manually change the `type` of the Token created when you import your Variables. The fastest way to do this is to edit the code files.
 
-{% content-ref url="imported-variable-types-and-token-types.md" %}
-[imported-variable-types-and-token-types.md](imported-variable-types-and-token-types.md)
+{% content-ref url="token-types.md" %}
+[token-types.md](token-types.md)
 {% endcontent-ref %}
 
 

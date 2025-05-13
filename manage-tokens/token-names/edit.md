@@ -253,7 +253,17 @@ If you haven't already, you may want to create a new branch dedicated to these n
 
 If you are working in a multiple Figma file setup, be sure to [publish your library changes](https://help.figma.com/hc/en-us/articles/360025508373-Publish-a-library#h_01J688PTA7V9DE1KSKQXAMNXRZ) so the rest of your team has access to any updated components, styles and variables related to the new names. &#x20;
 
+***
 
+
+
+### Update attached Styles and Variables
+
+After you've changed a Token Name, you may need to update the name of any Style or Variable that is currently attached to the Token.&#x20;
+
+Jump to a guide on Exporting to Figma for more detials:&#x20;
+
+<table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>The overview on how to Export your changes to Figma . </td><td><a href="../../.gitbook/assets/card-header-figma-export-overview (1).png">card-header-figma-export-overview (1).png</a></td><td><a href="../../figma/export/">export</a></td></tr><tr><td>Ensure the <strong>Update existing Style and Variable names</strong> option is enabled when exporting.  </td><td><a href="../../.gitbook/assets/card-header-figma-export-options.png">card-header-figma-export-options.png</a></td><td><a href="../../figma/export/options.md#id-3.-update-existing-style-and-variable-names">#id-3.-update-existing-style-and-variable-names</a></td></tr></tbody></table>
 
 ***
 

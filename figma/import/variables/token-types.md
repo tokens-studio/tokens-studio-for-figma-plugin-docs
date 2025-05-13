@@ -50,3 +50,6 @@ Here's a list of the common names of our Token Types, and how they should be wri
 | Text              | String          | `textCase`                               |
 | Boolean           | Boolean         | `color`                                  |
 
+
+
+{% include "../../../.gitbook/includes/spacer-image-fullwidth.md" %}

@@ -54,3 +54,5 @@ We provide official transforms in the form of a package called [@tokens-studio/s
 ### Style Dictionary Configurator
 
 [Style Dictionary Configurator](https://configurator.tokens.studio/) is a web-based tool that allows you to transform your design tokens directly in your browser. It uses Style Dictionary under the hood and can be a convenient way to experiment with Style Dictionary without installing it on your computer.
+
+{% include "../.gitbook/includes/spacer-image-fullwidth.md" %}

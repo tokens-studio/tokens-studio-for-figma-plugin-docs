@@ -326,4 +326,4 @@ Tokens Studio Plugin GitHub - [Open issues for Group Names](https://github.com/t
 
 * DTCG W3C Token Group Metadata - [Description and Type ](https://feedback.tokens.studio/p/token-group-metadata-description-and-type)
 
-{% include "../../.gitbook/includes/something-to-share-subm....md" %}
+{% include "../../.gitbook/includes/featurebase.md" %}

@@ -54,3 +54,7 @@ With that result you're able to query the stored tokens.
 ### Figma Plugin Helpers
 
 We've [built a tool](https://www.npmjs.com/package/@six7/figma-tokens-helpers) that allows you to read all of the above more easily in your own plugin. We're exposing functions that wrap our plugin data functions, so you can easily get tokens stored on the document, on the layer, and even get the resolved tokens taking the activated sets/themes into account!
+
+
+
+{% include "../.gitbook/includes/spacer-image-fullwidth.md" %}

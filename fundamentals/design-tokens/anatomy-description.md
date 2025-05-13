@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/pageHeader-introTokens-description.png
+cover: ../../.gitbook/assets/Header-introTokens-description.png
 coverY: 0
 layout:
   cover:
@@ -60,3 +60,5 @@ The additional context you can add to the `description` of a Token helps cross-f
 Next, let's explore the `name` of a Design Token as this anatomic property often provides an indication of design decisions that are detailed in the `description` .&#x20;
 
 <figure><img src="../../.gitbook/assets/token-anatomy-name.png" alt=""><figcaption><p>In this infographic, the Token examples on the right side highlight the Name. The top code block shows a Token Name with groups. The bottom code block shows a flat Token Name.</p></figcaption></figure>
+
+{% include "../../.gitbook/includes/spacer-image-fullwidth.md" %}

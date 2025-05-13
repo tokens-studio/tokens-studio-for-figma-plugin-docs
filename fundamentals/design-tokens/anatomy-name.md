@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/pageHeader-introTokens-name.png
+cover: ../../.gitbook/assets/Header-introTokens-name.png
 coverY: 0
 layout:
   cover:
@@ -78,3 +78,4 @@ We have compiled the technical requirements of naming Tokens to help you get sta
 
 Now that you've learned the basics of what a Design Token is and each of its parts, you are ready to explore some of the broader concepts to deepen your Token knowledge, or jump into Tokens Studio to put what you've learned so far into practice!&#x20;
 
+{% include "../../.gitbook/includes/spacer-image-fullwidth.md" %}

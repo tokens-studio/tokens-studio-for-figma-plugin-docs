@@ -25,3 +25,7 @@ It gives you reusable tokens that can be used for a whole range of design option
 ### Slack Channel
 
 We have a dedicated Slack server so the community can exchange ideas, best practices or simply ask a question. [Join the Slack channel](https://www.tokens.studio/slack).
+
+
+
+{% include ".gitbook/includes/spacer-image-fullwidth.md" %}

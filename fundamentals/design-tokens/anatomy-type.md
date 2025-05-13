@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/pageHeader-introTokens-type (1).png
+cover: ../../.gitbook/assets/Header-introTokens-type.png
 coverY: 0
 layout:
   cover:
@@ -65,3 +65,4 @@ Next, let's explore the `value` of a Design Token as this anatomic property depe
 
 <figure><img src="../../.gitbook/assets/token-anatomy-value.png" alt=""><figcaption><p>In this infographic, the Token examples on the right side highlight the Value. The top code block shows a hard-coded value. The bottom code block has a value that references another Token. </p></figcaption></figure>
 
+{% include "../../.gitbook/includes/spacer-image-fullwidth.md" %}

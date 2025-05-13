@@ -31,10 +31,11 @@ As soon as the Plugin detects the project size is at 100kb and set to Local Docu
 
 * The footer of the Plugin will display your current file size.&#x20;
 * You can select the file size to open a modal with easy access to more information.&#x20;
+  * Selecting the View Storage Settings actions brings you to the settings page where you can add a new sync provider.&#x20;
 
+Having a Token project that is over 100kb isn't a problem, it means you are doing great work! However, Figma's efforts to tackle their performance issues means Plugins like Tokens Studio are being limited by Figma.&#x20;
 
-
-Having a Token project that is over 100kb isn't a problem, it means you are doing great work! However, Figma's efforts to tackle their performance issues means Plugins like Tokens Studio&#x20;
+<figure><img src="../../.gitbook/assets/dataLimit-flow-V2-5-1.png" alt=""><figcaption><p>The user flow for Token projects that exceed Figma's 100kb file size limit is pictured. On the right, the Tokens Page of the plugin has the file size highlighted in the bottom left. Selecting the file size opens the informational picture in the middle. The far right image shows the Settings page of the plugin currently set to store the Token data as Local Document, with the Add new sync provider action highlighted. </p></figcaption></figure>
 
 
 

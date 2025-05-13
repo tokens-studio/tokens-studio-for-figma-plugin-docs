@@ -19,3 +19,7 @@ layout:
 ## Beta Testing
 
 Full guide coming soon!
+
+
+
+{% include "../.gitbook/includes/spacer-image-fullwidth.md" %}

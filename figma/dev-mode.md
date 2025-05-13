@@ -121,4 +121,5 @@ Tokens Studio Plugin GitHub - [Open issues for Figma Dev Mode](https://github.co
 
 * Enhance data in Dev Mode - [Feature Request](https://feedback.tokens.studio/p/enhance-data-in-dev-mode)
 
-{% include "../.gitbook/includes/something-to-share-subm....md" %}
+{% include "../.gitbook/includes/featurebase.md" %}
+

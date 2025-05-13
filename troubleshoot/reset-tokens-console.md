@@ -128,3 +128,5 @@ You’ll see the **Get Started** screen, indicating a successful reset.
 • Always back up your JSON before resetting.\
 • For synced tokens, re-pull from your repository after resetting to restore data.
 {% endhint %}
+
+{% include "../.gitbook/includes/spacer-image-fullwidth.md" %}

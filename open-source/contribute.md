@@ -45,4 +45,4 @@ Open the Terminal.app and enter the following command:  rm -rf "$HOME/Library/Ap
 Try opening the Figma desktop app again.
 ```
 
-\
+{% include "../.gitbook/includes/spacer-image-fullwidth.md" %}

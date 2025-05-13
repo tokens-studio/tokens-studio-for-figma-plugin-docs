@@ -20,7 +20,7 @@ layout:
 
 # Import from Figma Guide
 
-### Import from Figma guide&#x20;
+## Import from Figma guide&#x20;
 
 You can create Design Tokens in Tokens Studio by importing your Styles or Variables from Figma into the Plugin. This allows Tokens Studio to be the single place to manage Tokens, Styles, and Variables in Figma.
 
@@ -33,7 +33,7 @@ Each time you Import from Figma, you choose:
 
 
 
-
+### Variable Types as Token Types
 
 When importing variables:
 
@@ -46,9 +46,15 @@ When importing variables:
 
 
 
+When you import variables from Figma, you may wish to manually adjust the Token Type.
+
+→ [Jump to the guide on Variable Types and Token Types](variables/token-types.md)
 
 
-When importing styles
+
+### Style Types as Token Types
+
+When importing styles:
 
 * Color Styles - creates [Color Tokens](../../manage-tokens/token-types/color/).
 * Text Styles - creates [Typography Composite Tokens](../../manage-tokens/token-types/typography/) and optional Text Property Tokens.
@@ -64,3 +70,6 @@ While the process for importing Styles or Variables is similar, there are some d
 
 <table data-view="cards"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td>Import Styles from Figma</td><td><a href="../../.gitbook/assets/card-header-figma-import-styles.png">card-header-figma-import-styles.png</a></td><td><a href="styles.md">styles.md</a></td></tr><tr><td>Import Variables from Figma</td><td><a href="../../.gitbook/assets/card-header-figma-import-variables.png">card-header-figma-import-variables.png</a></td><td><a href="variables/">variables</a></td></tr></tbody></table>
 
+
+
+{% include "../../.gitbook/includes/spacer-image-fullwidth.md" %}

@@ -99,7 +99,7 @@
   * [Import Styles from Figma](figma/import/styles.md)
   * [Import Variables from Figma](figma/import/variables/README.md)
     * [Connect Themes to Imported Variables](figma/import/variables/connect-themes-to-imported-variables.md)
-    * [Imported Variable Types and Token Types](figma/import/variables/imported-variable-types-and-token-types.md)
+    * [Imported Variable Types and Token Types](figma/import/variables/token-types.md)
 * [Non-local Variables and Styles (pro)](figma/non-local-files.md)
 * [Remove Tokens from Figma elements](figma/remove-tokens.md)
 * [Dev Mode in Figma](figma/dev-mode.md)

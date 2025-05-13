@@ -69,3 +69,5 @@ Once you search for "Tokens Studio", select it to open the Plugin.&#x20;
 <figure><img src="../.gitbook/assets/FigmaUI-OpenTS-QuickActions.png" alt=""><figcaption><p>The Figma UI is shown with the quick actions button annotated. The search input has "tokens studio" entered and the results show the Tokens Studio for Figma plugin listed as a matching action. An annotation is pointing at the matching action labelled "select to open". </p></figcaption></figure>
 
 Once the Plugin is open, you are ready to start a new Token Project to explore the Plugin.&#x20;
+
+{% include "../.gitbook/includes/spacer-image-fullwidth.md" %}

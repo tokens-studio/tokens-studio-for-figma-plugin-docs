@@ -122,3 +122,6 @@ Congrats on getting this far! Head to the comprehensive guide on Importing Varia
 
 </details>
 
+
+
+{% include "../.gitbook/includes/spacer-image-fullwidth.md" %}

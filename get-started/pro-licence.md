@@ -163,4 +163,6 @@ Pro licence holders will notice additional navigation actions on the Tokens Page
 
 Free licence holders will not see these icon buttons.&#x20;
 
-&#x20;
+
+
+{% include "../.gitbook/includes/spacer-image-fullwidth.md" %}

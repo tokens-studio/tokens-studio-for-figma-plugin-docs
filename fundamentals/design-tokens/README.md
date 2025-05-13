@@ -1,6 +1,6 @@
 ---
 icon: hand-wave
-cover: ../../.gitbook/assets/pageHeader-introTokens-type.png
+cover: ../../.gitbook/assets/Header-introTokens-overview.png
 coverY: 0
 layout:
   cover:
@@ -186,3 +186,4 @@ We've saved the "best" for last, as Token Names are the most customizable part o
 
 <figure><img src="../../.gitbook/assets/anatomy-token-all.png" alt=""><figcaption><p>The four anatomic parts of a Design Token are next to code examples. Each part will be reviewed next. </p></figcaption></figure>
 
+{% include "../../.gitbook/includes/spacer-image-fullwidth.md" %}

@@ -1,5 +1,5 @@
 ---
-cover: ../../.gitbook/assets/pageHeader-introTokens-value.png
+cover: ../../.gitbook/assets/Header-introTokens-value.png
 coverY: 0
 layout:
   cover:
@@ -103,3 +103,4 @@ Next, let's explore the `description` of a Design Token as this anatomic propert
 
 <figure><img src="../../.gitbook/assets/token-anatomy-card-description@2x.png" alt=""><figcaption><p>In this infographic, the Token examples on the right side highlight the Description. </p></figcaption></figure>
 
+{% include "../../.gitbook/includes/spacer-image-fullwidth.md" %}
