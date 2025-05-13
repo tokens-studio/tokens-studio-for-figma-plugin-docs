@@ -1,6 +1,6 @@
 ---
 icon: crosshairs-simple
-cover: ../.gitbook/assets/PAGEheader-pluginPage-inspect.png
+cover: ../.gitbook/assets/pageHeader-pluginPage-Inspect.png
 coverY: 0
 layout:
   cover:
@@ -18,7 +18,7 @@ layout:
     visible: true
 ---
 
-# Inspect Tokens&#x20;
+# Inspect Tokens
 
 ## Inspect Tokens in the Plugin
 

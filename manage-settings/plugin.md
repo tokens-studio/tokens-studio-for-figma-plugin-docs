@@ -1,6 +1,6 @@
 ---
 icon: sliders-simple
-cover: ../.gitbook/assets/PAGEheader-pluginPage-settings.png
+cover: ../.gitbook/assets/pageHeader-pluginPage-Settings.png
 coverY: 0
 layout:
   cover:

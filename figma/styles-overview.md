@@ -22,7 +22,20 @@ layout:
 
 ## Manage Styles in Figma with Tokens Studio&#x20;
 
-If your team is working with Styles in Figma, you can use the Tokens Studio Plugin to attach Design Tokens to Styles (and Variables). This allows you to manage your Tokens and Styles in the same place, and easily sync your design decisions to a code repository.\
+If your team is working with Styles in Figma, you can use the Tokens Studio Plugin to attach Design Tokens to Styles (and Variables). This allows you to manage your Tokens and Styles in the same place, and easily sync your design decisions to a code repository.
+
+
+
+### Style Types as Token Types
+
+_You can select a Token Type below to learn more about it._
+
+| Figma Style Type | Token Type                                                     |
+| ---------------- | -------------------------------------------------------------- |
+| Color Style      | [Color Token](../manage-tokens/token-types/color/)             |
+| Text Style       | [Typography Token](../manage-tokens/token-types/typography/)   |
+| Effects Style    | [Box Shadow Token](../manage-tokens/token-types/box-shadow.md) |
+
 
 
 ### Guides on working with Styles&#x20;

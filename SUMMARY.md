@@ -24,6 +24,7 @@
 
 ## Token Management <a href="#manage-tokens" id="manage-tokens"></a>
 
+* [Manage Tokens in the Plugin](manage-tokens/plugin-features.md)
 * [Token Types](manage-tokens/token-types/README.md)
   * [Asset](manage-tokens/token-types/asset.md)
   * [Boolean](manage-tokens/token-types/boolean.md)
@@ -66,7 +67,7 @@
 * [Apply Tokens to Figma elements](manage-tokens/apply/README.md)
   * [Documentation Tokens](manage-tokens/apply/documentation-tokens.md)
 * [Apply Token Data](manage-tokens/apply-token-data/README.md)
-  * [Apply Token Settings](manage-tokens/apply-token-data/settings.md)
+  * [Advanced Settings - Apply Token Data](manage-tokens/apply-token-data/settings.md)
 * [Token Project Tools](manage-tokens/project-tools/README.md)
   * [Upload Token Files](manage-tokens/project-tools/upload.md)
   * [Download Token Files](manage-tokens/project-tools/download.md)
@@ -136,7 +137,7 @@
 
 ## Inspect and Debug Tokens <a href="#debug" id="debug"></a>
 
-* [Inspect Tokens ](debug/inspect-tokens.md)
+* [Inspect Tokens](debug/inspect-tokens.md)
 * [Remap Tokens](debug/remap-tokens.md)
 * [Troubleshoot Broken Tokens](debug/troubleshoot-broken-tokens.md)
 
