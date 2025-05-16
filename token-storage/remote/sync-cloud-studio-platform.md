@@ -30,7 +30,7 @@ Tokens Studio has a **standalone web-based platform** for dynamic creation and m
 
 ### How it works
 
-* Set up a **project** and **API key** in Tokens Studio
+* Set up a **project** and **API key** in the Tokens Studio platform
 * **Configure Tokens Studio as a sync provider** within the plugin.
 * Use the plugin to **sync your Design Tokens** between the Tokens Studio platform and your Figma design files.
 
@@ -46,37 +46,40 @@ If you haven't already, sign up for an account at [Tokens Studio](https://app.to
 
 Once you've logged into your Tokens Studio account:
 
-* Select **New Project** from the top-right corner of the home page
+* Create a **New Organization**.
+* Create a **New Project**
   * Give your project a title.
+  * Choose a template to start the project. You can always remove this later.&#x20;
 * Now you are looking at the dashboard of your new project.
-* Locate the **Connection String** (ID of the project) on the right side of the page
-* Use the **copy button** to copy the connection string to your clipboard
-* **Save the connection string ID** somewhere safe as it's needed for the plugin configuration.
 
-<figure><img src="../../.gitbook/assets/sync-studio-ConnectionStringID-v2-0 1.png" alt=""><figcaption></figcaption></figure>
+
+
+
+
+<figure><img src="broken-reference" alt=""><figcaption></figcaption></figure>
 
 #### 2. Create an API key
 
-The **API key** is generated from the Tokens Studio Platform, and acts as a passcode that allows the plugin to connect to your account.
+The **API key** is generated from the Tokens Studio Platform, and acts as a passcode that allows the Figma Plugin to connect to your account and access all Organizations and Projects that you are a part of.
 
 Log into your Tokens Studio Platform account:
 
-* Navigate to your **project dashboard**
-* Select the **project name** in the top left corner
-* Navigate to **Settings**
-* Select **API Keys**
-  * Select **Generate API Key**
+* Navigate to the **home page** of your account
+* Click on **Find your API key.**&#x20;
+  * You can also jump to the API keys page by using the keyboard shortcut cmd+k.
+* Select **Create a new Keys**
 * Add a **Name** of what the API Key is for.
   * Example: `fimga-sync`
   * Option to add a **Description** for the API Key
     * Example: `test-token sync to plugin`
-* Under **Group** select **Admin** which gives you read and write permissions
 * Select **create key**
-* **Save the generated API key** somewhere safe as it's needed for the plugin configuration.
+* **Save the generated API key** somewhere safe as it's needed for the plugin configuration and you will not see it again.&#x20;
 
 You're ready to configure the Tokens Studio plugin in Figma!
 
-<figure><img src="../../.gitbook/assets/sync-studio-API Key-v2-0.png" alt=""><figcaption></figcaption></figure>
+
+
+<figure><img src="../../.gitbook/assets/studio-dashboard.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -89,18 +92,26 @@ In Figma, open the Tokens Studio plugin and navigate to the **Settings** page
 
 <figure><img src="../../.gitbook/assets/settings-page-studioplatform-v2-0.png" alt=""><figcaption></figcaption></figure>
 
+You'll be asked to confirm that you already have access to the Studio Platform and then brought to the Studio Platform sync configuration form.&#x20;
+
+<figure><img src="../../.gitbook/assets/sync-studioPlatform-Empty-v2-5-1.png" alt=""><figcaption></figcaption></figure>
+
+
+
 #### Add credentials for Tokens Studio sync
 
 You'll need the information saved from the steps above to complete the Tokens Studio sync configuration form.
 
-<figure><img src="../../.gitbook/assets/sync-studio-annotated-v2-0.png" alt=""><figcaption></figcaption></figure>
+As you fill in the details, additional inputs in the form will appear.&#x20;
+
+<figure><img src="../../.gitbook/assets/sync-studio-annotated-v2-5-1.png" alt=""><figcaption></figcaption></figure>
 
 **1. Name**
 
 This is a **nickname** that shows up in the **plugin settings page** later on to identify this specific sync provider configuration.
 
 * Choose something memorable to you and your project.
-* Example: `Hyma brand exploration`
+* Example: `Client A`
 
 
 
@@ -108,13 +119,25 @@ This is a **nickname** that shows up in the **plugin settings page** later on to
 
 The **API Key** you saved from [step 2 above](sync-cloud-studio-platform.md#id-2.-create-an-api-key).
 
+* Once you enter the API Key into the form, the system will validate your Studio Platform account.&#x20;
+* Once the validation is successfull, the Organization input will appear.&#x20;
 
 
-**3. ID (connection string)**
 
-Enter the **Connection String ID** you saved from [step 1 above](sync-cloud-studio-platform.md#id-1.-create-a-new-project).
+**3. Organization**
 
-* This can typically be found in the project section of your Tokens Studio sync dashboard.
+Select the Studio Platform Organization from the dropdown that contains the Token Project you'd like to work with.&#x20;
+
+* Once you select an Organization, the system will check your Studio Platform account.&#x20;
+* Once the check is complete, the Project input will appear.&#x20;
+
+
+
+#### 4. Project
+
+Select the Token Project you'd like to work with in the Figma Plugin from the dropdown.&#x20;
+
+* You'll only see Projects within the current Organization you've selected above.&#x20;
 
 
 
@@ -124,11 +147,15 @@ Save to confirm your credentials, and follow the prompts in the plugin to finish
 
 ***
 
+
+
 ### Shared source of truth
 
-As you work in the plugin, it will continuously update the Studio platform to stay in sync without manual push or pull actions needed.
+As you work in the Plugin, it will continuously update the Studio Platform to stay in sync without manual push actions needed.
 
-{% include "../../.gitbook/includes/transforming-tokens.md" %}
+You will need to pull changes made in the Studio Platform into the Figma Plugin using the refresh action  that appears in the bottom left of the Plugin.
+
+
 
 ***
 
@@ -136,9 +163,8 @@ As you work in the plugin, it will continuously update the Studio platform to st
 
 Mentioned in this doc:
 
-* Tokens Studio Platform - https://tokens.studio/studio
-* SD-Transforms - [Read Me](https://github.com/tokens-studio/sd-transforms#readme)
-* Style Dictionary - https://styledictionary.com/
+* Tokens Studio Platform - [https://tokens.studio/studio](https://tokens.studio/studio)
+* Studio Platform Documentation - [https://documentation.tokens.studio/](https://documentation.tokens.studio/)
 
 
 
