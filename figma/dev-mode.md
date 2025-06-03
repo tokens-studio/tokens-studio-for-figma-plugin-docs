@@ -89,6 +89,11 @@ If desired, you can use Figma's copy button to capture all Token Names appearing
 
 <figure><img src="../.gitbook/assets/copyTokens-in-devMode-V2-4-1.png" alt=""><figcaption><p>A Figma file in Dev Mode is shown with on the Inspect Tab, located at the top right of the screenshot. The programming language is set to Tokens Studio for Figma. A card component has been selected on the Figma canvas, and several design token names appear next to the properties in the code display pannel on the right of the interface. The copy code action is annotated. </p></figcaption></figure>
 
+{% hint style="info" %}
+A community plugin was created by Azmy Hanifa which allows you to see more Tokens in Dev Mode!\
+→ [Tokens Studio Tree Inspector](https://www.figma.com/community/plugin/1507929423982882409/tokens-studio-tree-inspector)
+{% endhint %}
+
 
 
 ***
@@ -103,7 +108,7 @@ Mentioned in this guide:
 
 #### Community resources:
 
-* None yet!
+* Figma Dev Mode Plugin by Azmy Hanifa - [Tokens Studio Tree Inspector](https://www.figma.com/community/plugin/1507929423982882409/tokens-studio-tree-inspector)
 
 {% include "../.gitbook/includes/something-to-share-subm....md" %}
 
