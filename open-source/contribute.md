@@ -19,11 +19,10 @@ layout:
 
 If you want to get started contributing to Tokens Studio for Figma, here's how you can get started:
 
-1. Run `npm ci` to install dependencies.
-2. Run `npm run start` to start webpack in watch mode or npm run build to build once.
-3. Open Figma -> Plugins -> Development -> New Plugin... and choose manifest.json file from this repo.
-4. Create a Pull request for your branch
-
+1. Run `yarn  --frozen-lockfile  --immutable` to install dependencies.
+2. Run `yarn start` to start webpack in watch mode or `yarn build` to build once.
+3. Open `Figma` -> `Plugins` -> `Development` -> `Import plugin from manifest...` and select the `manifest.json` file from the relevant package.
+4. Create a pull request for your branch, including as much information as possible within the provided template.
 
 
 ### Known Issues
