@@ -27,10 +27,13 @@ This guide covers the basics of installing and using Style Dictionary. For full 
 
 ### Install with NPM
 
-Before we begin, we need to install Style Dictionary. You can install it using npm, which is a package manager for Node.js. Open your terminal and run the following command:
+Before we begin, we need to install Style Dictionary. You can install it using npm, which is a package manager for Node.js. 
+We also assume you will need the [@tokens-studio/sd-transforms](https://www.npmjs.com/package/@tokens-studio/sd-transforms) integration package if you're a Tokens Studio user.
+
+Open your terminal and run the following command:
 
 ```
-npm install style-dictionary
+npm install style-dictionary @tokens-studio/sd-transforms
 ```
 
 
@@ -56,3 +59,14 @@ We provide official transforms in the form of a package called [@tokens-studio/s
 [Style Dictionary Configurator](https://configurator.tokens.studio/) is a web-based tool that allows you to transform your design tokens directly in your browser. It uses Style Dictionary under the hood and can be a convenient way to experiment with Style Dictionary without installing it on your computer.
 
 {% include "../.gitbook/includes/spacer-image-fullwidth.md" %}
+
+
+### FAQ
+
+#### Excluding/splitting sets in the output
+
+**Question**: I want to exclude certain sets from the output, since my Design System will not need to use those tokens directly.
+
+**Answer**: You can use [Style Dictionary Filters](https://styledictionary.com/reference/hooks/filters/) for this, to filter a set by the token's `filePath` property, which tells you which source file the token originated from. There is an in-depth example that goes one step further, [using filters to split your outputs in different files/folders](https://styledictionary.com/examples/splitting-output-files/)
+
+
