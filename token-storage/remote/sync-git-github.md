@@ -93,7 +93,7 @@ Log into you GitHub account:
 
 **Generate a new classic access token**
 
-* Select **Generate new token (beta)**
+* Select **Tokens (classic)**
 * Add a **Note** of what the token is for.
   * Example: `test-token repo sync to tokens studio`
 * Select an **Expiration** time frame
