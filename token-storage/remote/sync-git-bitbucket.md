@@ -83,7 +83,7 @@ From your browser, **Copy the URL of the repository and it somewhere safe** as i
 
 #### 4. Generate an API token
 
-The **API Token** is generated from Bitbucket and acts as a passcode that allows the Tokens Studio plugin to connect to your Bitbucket account.
+The **API Token** is generated from Atlassian and acts as a passcode that allows the Tokens Studio plugin to connect to your Bitbucket account.
 
 Navigate to your Bitbucket account settings.
 
