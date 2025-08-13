@@ -51,9 +51,9 @@ This doc outlines how to set up a Bitbucket repository and add it as a **Sync pr
 
 If you haven't already, sign up for a Bitbucket account at [https://bitbucket.org/](https://bitbucket.org/)
 
-#### 1. Record your Bitbucket user name&#x20;
+#### 1. Record your Bitbucket user email&#x20;
 
-Once you sign in, record your Bitbucket user name and store it somewhere safe as its needed to authenticate when you configure the Tokens Studio plugin to connect with your account.&#x20;
+Once you sign in, record your Bitbucket user email and store it somewhere safe as its needed to authenticate when you configure the Tokens Studio plugin to connect with your account.&#x20;
 
 
 
@@ -81,23 +81,21 @@ From your browser, **Copy the URL of the repository and it somewhere safe** as i
 
 <figure><img src="../../.gitbook/assets/sync-bitbucket-URL (1).png" alt=""><figcaption></figcaption></figure>
 
-#### 4. Generate an app password
+#### 4. Generate an API token
 
-The **App password** is generated from Bitbucket and acts as a passcode that allows the Tokens Studio plugin to connect to your Bitbucket account.
+The **API Token** is generated from Bitbucket and acts as a passcode that allows the Tokens Studio plugin to connect to your Bitbucket account.
 
 Navigate to your Bitbucket account settings.
 
-* Locate the **Personal settings** section, select **Personal Bitbucket settings**
-* Select **App passwords**.
-* Select **Create app passwords**
-* Add a **Name** of what the app password is for
+* Go to https://id.atlassian.com/manage-profile/security/api-tokens
+* Select **Create API token with scopes**. 
+* Give the API token a name and an expiry date, usually related to the application that will use the token and select Next.
+* Select **Bitbucket** as the app and select **Next**.
+* Select the scopes (permissions) the API token needs and select **Next**. For detailed descriptions of each permission, see: API Token permissions.        **Note**: This step is required for your API token to access Bitbucket APIs or perform Git commands.
   * Example: `test-token repo sync to Tokens studio`
-* Select the **permissions** for app passwords
-  * **Account** = `Read`
-  * **Repositories** = `Write`
-* Select the **Create** button
-  * The page will display the **New app password dialog**
-* **Save the generated password, and your Bitbucket username** somewhere safe as it's needed for the plugin configuration.
+* Review your token and select the **Create token** button. The page will display the **New API token**.
+* Copy the generated API token and either record or paste it into the application you want to give access
+* **Save the generated API token, and your Bitbucket user email** somewhere safe as it's needed for the plugin configuration.
 
 You're ready to configure the Tokens Studio plugin in Figma!
 
@@ -133,15 +131,15 @@ This is a **nickname** that shows up in the **Plugin settings page** later on to
 
 
 
-**2. Bitbucket username**
+**2. Bitbucket user email**
 
-The **username** of the Bitbucket account you saved in [step 1 above](sync-git-bitbucket.md#id-1.-record-your-bitbucket-user-name) is used as a part of the authentication process between the plugin and Bitbucket.
+The **user email** of the Bitbucket account you saved in [step 1 above](sync-git-bitbucket.md#id-1.-record-your-bitbucket-user-name) is used as a part of the authentication process between the plugin and Bitbucket.
 
 
 
-**3. App password**
+**3. API Token**
 
-The **App password** you saved from [step 4 above](sync-git-bitbucket.md#id-3.-generate-an-app-password).
+The **API Token** you saved from [step 4 above](sync-git-bitbucket.md#id-3.-generate-an-app-password).
 
 
 
