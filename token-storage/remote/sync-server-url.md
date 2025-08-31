@@ -108,9 +108,7 @@ Enter the complete **URL** you saved from [step 1 above.](sync-server-url.md#id-
 
 The authentication **headers** you saved from [step 2 above](sync-server-url.md#id-2.-check-server-headers).
 
-Example: \`("Some-Header-Key":SomeHeaderValue)
-
-
+Example: `{"Some-Header-Key": "SomeHeaderValue"}`
 
 #### Save and do the initial sync
 
