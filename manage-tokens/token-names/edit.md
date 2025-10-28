@@ -2,20 +2,6 @@
 icon: pen-field
 cover: ../../.gitbook/assets/pageHeader-anatomy-tokenName-remap.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Edit Token Names

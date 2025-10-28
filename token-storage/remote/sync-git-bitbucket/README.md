@@ -1,21 +1,7 @@
 ---
 icon: bitbucket
-cover: ../../.gitbook/assets/bitbucket-page-header-sync-provider.png
+cover: ../../../.gitbook/assets/bitbucket-page-header-sync-provider.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Bitbucket - Git Sync Provider
@@ -43,7 +29,7 @@ This doc outlines how to set up a Bitbucket repository and add it as a **Sync pr
 * Configure **Bitbucket as a sync provider** within the Tokens Studio plugin.
 * Use the plugin to **sync your Design Tokens** between Bitbucket and Figma design files.
 
-<figure><img src="../../.gitbook/assets/sync-bitbucket-header.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sync-bitbucket-header.png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -51,9 +37,9 @@ This doc outlines how to set up a Bitbucket repository and add it as a **Sync pr
 
 If you haven't already, sign up for a Bitbucket account at [https://bitbucket.org/](https://bitbucket.org/)
 
-#### 1. Record your Bitbucket user name&#x20;
+#### 1. Record your Bitbucket user email&#x20;
 
-Once you sign in, record your Bitbucket user name and store it somewhere safe as its needed to authenticate when you configure the Tokens Studio plugin to connect with your account.&#x20;
+Once you sign in, record your Bitbucket user email and store it somewhere safe as its needed to authenticate when you configure the Tokens Studio plugin to connect with your account.&#x20;
 
 
 
@@ -73,37 +59,50 @@ Sign into your account and select the **Create** button, and select **Repository
 
 You are now looking at your new repository! Well done!
 
-<figure><img src="../../.gitbook/assets/sync-bitbucket-RepoCreate (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sync-bitbucket-RepoCreate (1).png" alt=""><figcaption></figcaption></figure>
 
 #### **3. Record the Repository URL**
 
 From your browser, **Copy the URL of the repository and it somewhere safe** as it's needed for the plugin configuration.
 
-<figure><img src="../../.gitbook/assets/sync-bitbucket-URL (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/sync-bitbucket-URL (1).png" alt=""><figcaption></figcaption></figure>
 
-#### 4. Generate an app password
+#### 4. Generate an API Token
 
-The **App password** is generated from Bitbucket and acts as a passcode that allows the Tokens Studio plugin to connect to your Bitbucket account.
+The **API Token** is generated from Atlassian and acts as a passcode that allows the Tokens Studio plugin to connect to your Bitbucket account.
 
 Navigate to your Bitbucket account settings.
 
-* Locate the **Personal settings** section, select **Personal Bitbucket settings**
-* Select **App passwords**.
-* Select **Create app passwords**
-* Add a **Name** of what the app password is for
-  * Example: `test-token repo sync to Tokens studio`
-* Select the **permissions** for app passwords
-  * **Account** = `Read`
-  * **Repositories** = `Write`
-* Select the **Create** button
-  * The page will display the **New app password dialog**
-* **Save the generated password, and your Bitbucket username** somewhere safe as it's needed for the plugin configuration.
+* Go to https://id.atlassian.com/manage-profile/security/api-tokens
+* Select **Create API token with scopes**.
+* Give the API token a name and an expiry date, usually related to the application that will use the token and select Next.
+
+<figure><img src="../../../.gitbook/assets/bitBucket-selectScopes-nameAndExpiry-V2-7-1 (1).png" alt=""><figcaption></figcaption></figure>
+
+* Select **Bitbucket** as the app and select **Next**.
+
+<figure><img src="../../../.gitbook/assets/bitBucket-selectScopes-selectApp-V2-7-1 (2).png" alt=""><figcaption></figcaption></figure>
+
+* Select the scopes (permissions) the API token needs and select **Next**. For detailed descriptions of each permission, see: API Token permissions. **Note**: This step is required for your API token to access Bitbucket APIs or perform Git commands.\
+
+  * Example: `test-token repo sync to Tokens studio` \
+    \
+
+* The minimum required scopes for an API token to read and write from a Bitbucket repo from the plugin would be `read:permission:bitbucket`, `read:repository:bitbucket`, `write:permission:bitbucket`, `read:user:bitbucket`, `write:pullrequest:bitbucket`, `write:repository:bitbucket`\
+
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-09 at 9.55.34 AM.png" alt=""><figcaption></figcaption></figure>
+
+<div><figure><img src="../../../.gitbook/assets/Screenshot 2025-09-09 at 9.56.01 AM.png" alt=""><figcaption></figcaption></figure> <figure><img src="../../../.gitbook/assets/Screenshot 2025-09-09 at 9.56.21 AM.png" alt=""><figcaption></figcaption></figure></div>
+
+* Review your token and select the **Create token** button. The page will display the **New API token**.
+
+<figure><img src="../../../.gitbook/assets/Screenshot 2025-09-09 at 9.54.14 AM.png" alt=""><figcaption></figcaption></figure>
+
+* Copy the generated API token and either record or paste it into the application you want to give access
+* **Save the generated API token, and your Bitbucket user email** somewhere safe as it's needed for the plugin configuration.
 
 You're ready to configure the Tokens Studio plugin in Figma!
-
-<figure><img src="../../.gitbook/assets/sync-bitbucket-PAT (1).png" alt=""><figcaption></figcaption></figure>
-
-
 
 ***
 
@@ -114,7 +113,7 @@ In Figma, open the Tokens Studio plugin and navigate to the **Settings** page us
 * Under the **Sync providers** section, select the **Add new** button to see a list of all Token storage providers.
 * Select **Bitbucket**
 
-<figure><img src="../../.gitbook/assets/settings-page-bitBucket-v2-0 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/settings-page-bitBucket-v2-0 (1).png" alt=""><figcaption></figcaption></figure>
 
 
 
@@ -122,7 +121,7 @@ In Figma, open the Tokens Studio plugin and navigate to the **Settings** page us
 
 You'll need the information saved from the steps above to complete the Bitbucket sync configuration form.
 
-<figure><img src="../../.gitbook/assets/sync-bitbucket-annotated-v2-0 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/bitbucket-syncProvider-V2-7-1.png" alt="" width="563"><figcaption></figcaption></figure>
 
 **1. Name**
 
@@ -133,25 +132,25 @@ This is a **nickname** that shows up in the **Plugin settings page** later on to
 
 
 
-**2. Bitbucket username**
+**2. Bitbucket user email**
 
-The **username** of the Bitbucket account you saved in [step 1 above](sync-git-bitbucket.md#id-1.-record-your-bitbucket-user-name) is used as a part of the authentication process between the plugin and Bitbucket.
+The **user email** of the Bitbucket account you saved in [step 1 above](./#id-1.-record-your-bitbucket-user-name) is used as a part of the authentication process between the plugin and Bitbucket.
 
 
 
-**3. App password**
+**3. API Token**
 
-The **App password** you saved from [step 4 above](sync-git-bitbucket.md#id-3.-generate-an-app-password).
+The **API Token** you saved from [step 4 above](./#id-3.-generate-an-app-password).
 
 
 
 **4. Repository (owner/repo)**
 
-The URL from the **repository** from the [step 3 above](sync-git-bitbucket.md#id-3.-record-the-repository-url) has the **owner/repository** in it (all characters after the **bitbucket.org/)**
+The URL from the **repository** from the [step 3 above](./#id-3.-record-the-repository-url) has the **owner/repository** in it (all characters after the **bitbucket.org/)**
 
 Occasionally your URL may contain a project related slug after the **owner/repository**. The screenshot above shows such a url. If the URL of your repo contains a slug, you'll only need the 2 sections after the **bitbucket.org**
 
-For example, if your URL says `https://butbucket.org/tokensstudiotest/bitnucketsync/src/main` you will enter `tokensstudiotest/bitbucketsync` into the form in the plugin.
+For example, if your URL says `https://bitbucket.org/tokensstudiotest/bitnucketsync/src/main` you will enter `tokensstudiotest/bitbucketsync` into the form in the plugin.
 
 
 
@@ -159,7 +158,7 @@ For example, if your URL says `https://butbucket.org/tokensstudiotest/bitnuckets
 
 Your engineers might tell you what to add as the **default repository branch** where you will be pushing your Tokens, so if you aren't sure, ask them.
 
-* If you created a new repo following [the steps above](sync-git-bitbucket.md#id-2.-create-a-new-repository), you will enter `main`.
+* If you created a new repo following [the steps above](./#id-2.-create-a-new-repository), you will enter `main`.
 * You can create additional branches using the plugin later.
 
 
@@ -176,17 +175,18 @@ This tells the plugin:
 This setting impacts:
 
 * How engineers can work with our Token files during the Token transformation stage of the design-to-development process.
-* May limit edit access of Tokens for other team members using the Tokens Studio plugin.
+* May limit edit access of Tokens for other team members using the Tokens Studio plugin.\
 
-<figure><img src="../../.gitbook/assets/sync-Bitbucket-file-folder-both-v2-0 (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../../.gitbook/assets/bitbucket-syncProvider-fileFolderPathsV2-7-1.png" alt=""><figcaption></figcaption></figure>
 
 **Folder**
 
 The folder option syncs Token data from the plugin into a folder that contains multiple JSON files or subfolders of JSON files.
 
-{% include "../../.gitbook/includes/multi-file-sync.md" %}
+{% include "../../../.gitbook/includes/multi-file-sync.md" %}
 
-{% include "../../.gitbook/includes/folder-themes-hint.md" %}
+{% include "../../../.gitbook/includes/folder-themes-hint.md" %}
 
 
 
@@ -243,7 +243,7 @@ Once you **Save** your credentials, the plugin will compare your Tokens with wha
 
 You'll see a modal asking you to **push** or **pull** to Bitbucket to 'sync' the plugin data with your repository.
 
-{% include "../../.gitbook/includes/add-new-sync-provider.md" %}
+{% include "../../../.gitbook/includes/add-new-sync-provider.md" %}
 
 
 
@@ -253,11 +253,11 @@ You'll see a modal asking you to **push** or **pull** to Bitbucket to 'sync' the
 
 As you work in the plugin, push and pull indicators remind you to stay in sync with your Bitbucket repository.
 
-{% include "../../.gitbook/includes/push-pull.md" %}
+{% include "../../../.gitbook/includes/push-pull.md" %}
 
 Once your Token JSON files are synced to your Bitbucket repo, you have a shared source of truth between Designers and Engineers!
 
-{% include "../../.gitbook/includes/transforming-tokens.md" %}
+{% include "../../../.gitbook/includes/transforming-tokens.md" %}
 
 ***
 
@@ -275,7 +275,7 @@ Mentioned in this doc:
 
 * None yet!
 
-{% include "../../.gitbook/includes/something-to-share-subm....md" %}
+{% include "../../../.gitbook/includes/something-to-share-subm....md" %}
 
 
 
@@ -283,7 +283,7 @@ Mentioned in this doc:
 
 Tokens Studio Plugin GitHub - [Open issues for Sync Bitbucket](https://github.com/tokens-studio/figma-plugin/labels/sync%20bitbucket)
 
-{% include "../../.gitbook/includes/bug-report.md" %}
+{% include "../../../.gitbook/includes/bug-report.md" %}
 
 
 
@@ -294,4 +294,4 @@ Tokens Studio Plugin GitHub - [Open issues for Sync Bitbucket](https://github.co
 * ↕️ [Git sync enhancements - push, pull, merge, branching - Feature Request](https://feedback.tokens.studio/p/git-sync-enhancements)
 * 🔐 [Data security info request - Feature Request](https://feedback.tokens.studio/p/data-security-info)
 
-{% include "../../.gitbook/includes/featurebase.md" %}
+{% include "../../../.gitbook/includes/featurebase.md" %}

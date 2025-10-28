@@ -2,20 +2,6 @@
 icon: circle-minus
 cover: ../.gitbook/assets/PAGEheader-figma-removeToken.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Remove Tokens from Figma elements

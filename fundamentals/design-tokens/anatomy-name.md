@@ -1,20 +1,6 @@
 ---
 cover: ../../.gitbook/assets/Header-introTokens-name.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Token Anatomy - Name

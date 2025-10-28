@@ -2,20 +2,6 @@
 icon: hexagon-exclamation
 cover: ../../.gitbook/assets/page-header-figma-variables-skipped.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Variables Skipped on Export

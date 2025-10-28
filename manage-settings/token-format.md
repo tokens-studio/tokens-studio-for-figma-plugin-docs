@@ -2,20 +2,6 @@
 icon: code
 cover: ../.gitbook/assets/FORMAT-header-sync-w3c.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Token Format - W3C DTCG vs Legacy

@@ -2,20 +2,6 @@
 icon: arrow-right-from-line
 cover: ../../.gitbook/assets/page-header-figma-export-overview.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Export to Figma Guide

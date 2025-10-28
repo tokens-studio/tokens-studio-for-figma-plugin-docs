@@ -2,20 +2,6 @@
 icon: rectangle-pro
 cover: ../.gitbook/assets/pageheader-figma-ts-pro.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Pro Licence for the Figma Plugin

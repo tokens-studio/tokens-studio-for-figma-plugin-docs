@@ -2,20 +2,6 @@
 icon: folder
 cover: ../.gitbook/assets/pageHeader-sync-remote-multi-file.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Multi-file Sync to Remote Storage (pro)

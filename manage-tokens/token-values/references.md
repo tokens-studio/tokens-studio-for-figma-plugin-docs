@@ -2,20 +2,6 @@
 icon: brackets-curly
 cover: ../../.gitbook/assets/pageHeader-tokenValue-Reference.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Token Values with References

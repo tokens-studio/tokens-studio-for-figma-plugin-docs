@@ -2,20 +2,6 @@
 icon: hand-wave
 cover: ../../.gitbook/assets/Header-introTokens-overview.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Intro to Design Tokens

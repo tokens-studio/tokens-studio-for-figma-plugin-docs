@@ -2,20 +2,6 @@
 icon: file
 cover: ../../.gitbook/assets/LOCAL-page-header-sync-provider.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Local Document - Figma File Token Storage

@@ -2,20 +2,6 @@
 icon: align-justify
 cover: ../../../.gitbook/assets/pageHeader-token-type-paragraph-spacing.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Paragraph Spacing

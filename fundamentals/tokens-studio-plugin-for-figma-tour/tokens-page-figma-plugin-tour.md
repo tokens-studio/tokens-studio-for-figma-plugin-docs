@@ -3,20 +3,6 @@ hidden: true
 icon: brackets-curly
 cover: ../../.gitbook/assets/pageheader-figma-ts-tokens-light.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Tokens Page - Figma Plugin Tour

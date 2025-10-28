@@ -1,19 +1,8 @@
 ---
 hidden: true
-layout:
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
-# Apply Token Settings
+# Advanced Settings - Apply Token Data
 
 ## Apply Token Settings&#x20;
 

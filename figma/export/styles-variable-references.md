@@ -2,20 +2,6 @@
 icon: diamonds-4
 cover: ../../.gitbook/assets/page-header-figma-styles-var-references.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Styles with Variable References

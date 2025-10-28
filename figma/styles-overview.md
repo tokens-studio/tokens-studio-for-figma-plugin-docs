@@ -2,20 +2,6 @@
 icon: grid-round-2
 cover: ../.gitbook/assets/page-header-figma-styles.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Styles and Tokens Studio

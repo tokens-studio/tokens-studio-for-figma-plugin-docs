@@ -2,20 +2,6 @@
 icon: box-taped
 cover: ../../.gitbook/assets/GENERICVERSION-page-header-sync-provider.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Generic Versioned Storage - Server Sync Provider
@@ -53,9 +39,9 @@ This doc outlines how to configure Generic Versioned storage and add it as a **S
 
 If you haven't already, store your Design Token JSON files on your server and create a storage endpoint.
 
-→ [Here's an example implementation of token JSON files stored on a SQLite database on a local file if you need a reference.](https://github.com/SorsOps/figma-tokens-generic-storage-example)
+→ [Here's an example implementation of token JSON files stored on a SQLite database on a local file if you need a reference.](https://github.com/tokens-studio/figma-tokens-generic-storage-example)
 
-* [The swagger is available with the necessary schemas to roll your own endpoint.](https://github.com/SorsOps/figma-tokens-generic-storage-example/blob/main/public/swagger.json)
+* [The swagger is available with the necessary schemas to roll your own endpoint.](https://github.com/tokens-studio/figma-tokens-generic-storage-example/blob/main/public/swagger.json)
 
 → [Here's a guide on using a JSON server as a simple way to use Generic Versioned storage created by Ian Lawton, a Tokens Studio Community member.](https://medium.com/@ian.lawton/a-simple-design-token-storage-server-for-figma-token-studio-3a9ba74aefb5)
 

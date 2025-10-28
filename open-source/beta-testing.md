@@ -1,17 +1,6 @@
 ---
 hidden: true
 icon: comment-smile
-layout:
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Beta Testing

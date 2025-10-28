@@ -2,20 +2,6 @@
 icon: brackets-curly
 cover: ../../.gitbook/assets/STUDIO-page-header-sync-provider.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: false
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # Tokens Studio Platform - Cloud Sync Provider
