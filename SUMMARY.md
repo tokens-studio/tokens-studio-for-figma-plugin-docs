@@ -158,6 +158,16 @@
 * [Reset Tokens from Dev Console](troubleshoot/reset-tokens-console.md)
 * [Tokens Studio Status](https://uptime.tokens.studio/)
 
+## Starter Plus Account
+
+* [Introduction](starter-plus-account/introduction.md)
+* [Accessing the Account Portal](starter-plus-account/accessing-the-account-portal.md)
+* [Overview of the Portal Dashboard](starter-plus-account/overview-of-the-portal-dashboard.md)
+* [Managing Seats](starter-plus-account/managing-seats.md)
+* [Changing Plan / Upgrading / Downgrading](starter-plus-account/changing-plan-upgrading-downgrading.md)
+* [Billing & Invoices](starter-plus-account/billing-and-invoices.md)
+* [Team & Permissions](starter-plus-account/team-and-permissions.md)
+
 ## Open Source
 
 * [Contribute](open-source/contribute.md)
