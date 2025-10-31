@@ -141,21 +141,17 @@ There are a few ways to select what to Import from this list.
 
 ### Token structure of imported Variables
 
-1. Collection = Token Set folder name.
+1. Collection = Token Set folder name&#x20;
 2. Mode = Token Set&#x20;
 3. Variable = Design Token&#x20;
 
 When you import Variable collections into the plugin, you will see each Variable collection becomes a folder of Token Sets, with the folder name matching the collection name.
-
-<figure><img src="../../../.gitbook/assets/Variables to Token Sets - Collections only.png" alt=""><figcaption><p>Figma Variable Collection beside the Tokens Page in the Plugin. <br>The numbered annotations show the relationship between Variable Collection names and Token Set names. </p></figcaption></figure>
 
 
 
 Each Mode within the Variable Collection becomes an individual Token Set, with the Set name matching the Mode name.
 
 These Token Sets are nested within the same folder as the Variable Collection they came from.
-
-<figure><img src="../../../.gitbook/assets/Variables to Token Sets - Collections + modes to sets.png" alt=""><figcaption><p>Figma Variable Collection beside the Tokens Page in the Plugin. <br>The numbered annotations show the relationship between Variable Mode names and Token Set names. </p></figcaption></figure>
 
 
 
@@ -176,9 +172,31 @@ If you have not renamed the Mode in Figma, it will appear as `collection-name/Mo
 
 ***
 
+### Token structure for Pro users
 
+1. Collection = Theme-group
+2. Mode = Theme
+3. Variable = Design Token
 
-### **Troubleshooting**
+If you have a Pro licence, when you import variables, the plugin will take an additional step to create:
+
+* A Theme-group(s) for each Variable collection
+* A Theme(s) within the group for each variable mode
+
+When you import Variable collections into the plugin, you will see each Variable collection become a Theme-group.
+
+<figure><img src="../../../.gitbook/assets/Variables to Collections - Theme-groups (Pro).png" alt=""><figcaption><p>Figma Variable Collection beside the Tokens Page in the Plugin. <br>The numbered annotations show the relationship between Variable Collection names, Token Set and Theme-group names.</p></figcaption></figure>
+
+Each Mode within the Variable Collection becomes an individual Theme, with the Theme name\
+matching the Mode name.
+
+These Themes are nested within the Theme-group as the Variable Collection they came from.
+
+<figure><img src="../../../.gitbook/assets/Variables to Themes - Modes (Pro).png" alt=""><figcaption><p>Figma Variable Collection beside the Tokens Page in the Plugin. <br>The numbered annotations show the relationship between Variable Mode names, Token Set and Themes names.</p></figcaption></figure>
+
+***
+
+### Troubleshooting
 
 If you are using the **Rem for Dimension Value** Setting and you see values of `NaNrem` in the confirm view, this is unexpected behaviour caused by a known issue in the plugin.
 
@@ -210,6 +228,8 @@ The name is the ID of the decision, and it's part of how the Plugin knows which 
 When the name changes in Figma, the plugin struggles to identify where it is attached.
 {% endhint %}
 
+This means if you change the name of your Variable collections or modes in Figma, you may need to manually edit the names of your Theme Group (match collection name) and Themes (match mode names) in the Tokens Studio Plugin.&#x20;
+
 
 
 #### Updating Tokens in the Plugin
@@ -234,6 +254,10 @@ The process has a few steps to be aware of, outlined in its own guide.&#x20;
 
 There are some known limitations of importing Variables to be aware of.&#x20;
 
+#### BUG
+
+Currently, importing any changes does not update the existing token sets and themes, but instead creates a new one [#3287](https://github.com/tokens-studio/figma-plugin/issues/3287)
+
 #### All Variables imported share the same configuration
 
 Today, when you import a lot of Variables into the Plugin, they all share the same configuration for converting Number variables into Dimension Tokens and if you want those values in rem or pixel units.
@@ -246,6 +270,8 @@ A way to work around this after you've completed the import and the Tokens have 
    * Delete an entire Token set by right-clicking on the name of the Token Set and selecting delete.
    * Delete a specific Token by right-clicking on its name and selecting delete.
 2. Repeat the Import Variables process with your new desired options and only the Variables without a matching Token Name in the Plugin will be imported with the new options.
+
+
 
 
 
@@ -309,9 +335,9 @@ Figma resources:
 
 #### Known issues and bugs
 
-Tokens Studio Plugin GitHub - Open issues for Token Type Border
+Tokens Studio Plugin GitHub - [Open issues for Import Variables](https://github.com/tokens-studio/figma-plugin/issues?q=is%3Aopen+label%3A%22import+variables%22)
 
-* None yet
+* [3287](https://github.com/tokens-studio/figma-plugin/issues/3287) - Currently, importing any changes does not update the existing token sets and themes, but instead creates a new one
 
 {% include "../../../.gitbook/includes/bug-report.md" %}
 

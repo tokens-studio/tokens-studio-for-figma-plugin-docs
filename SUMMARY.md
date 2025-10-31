@@ -121,7 +121,7 @@
 * [Remote Token Storage Integrations](token-storage/remote/README.md)
   * [GitHub - Git Sync Provider](token-storage/remote/sync-git-github.md)
   * [GitLab - Git Sync Provider](token-storage/remote/sync-git-gitlab.md)
-  * [Bitbucket - Git Sync Provider](token-storage/remote/sync-git-bitbucket/README.md)
+  * [Bitbucket - Git Sync Provider](token-storage/remote/sync-git-bitbucket.md)
     * [Migration from App Passwords to API Tokens](token-storage/remote/sync-git-bitbucket/migration-from-app-passwords-to-api-tokens.md)
   * [Azure DevOps - Git Sync Provider](token-storage/remote/sync-git-azure-devops.md)
   * [JSONBin - Cloud Sync Provider](token-storage/remote/sync-cloud-jsonbin.md)
