@@ -192,7 +192,7 @@ matching the Mode name.
 
 These Themes are nested within the Theme-group as the Variable Collection they came from.
 
-<figure><img src="../../../.gitbook/assets/Variables to Themes - Modes (Pro).png" alt=""><figcaption><p>Figma Variable Collection beside the Tokens Page in the Plugin. <br>The numbered annotations show the relationship between Variable Mode names, Token Set and Themes names.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Variables to Token Sets - Collections + modes to sets.png" alt=""><figcaption><p>Figma Variable Collection beside the Tokens Page in the Plugin. <br>The numbered annotations show the relationship between Variable Mode names, Token Set and Themes names.</p></figcaption></figure>
 
 ***
 
@@ -254,9 +254,7 @@ The process has a few steps to be aware of, outlined in its own guide.&#x20;
 
 There are some known limitations of importing Variables to be aware of.&#x20;
 
-#### BUG
 
-Currently, importing any changes does not update the existing token sets and themes, but instead creates a new one [#3287](https://github.com/tokens-studio/figma-plugin/issues/3287)
 
 #### All Variables imported share the same configuration
 

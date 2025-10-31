@@ -164,6 +164,7 @@
 * [Accessing the Account Portal](starter-plus-account/accessing-the-account-portal.md)
 * [Overview of the Portal Dashboard](starter-plus-account/overview-of-the-portal-dashboard.md)
 * [Managing Seats](starter-plus-account/managing-seats.md)
+* [License key usage](starter-plus-account/license-key-usage.md)
 * [Changing Plan / Upgrading / Downgrading](starter-plus-account/changing-plan-upgrading-downgrading.md)
 * [Billing & Invoices](starter-plus-account/billing-and-invoices.md)
 * [Team & Permissions](starter-plus-account/team-and-permissions.md)

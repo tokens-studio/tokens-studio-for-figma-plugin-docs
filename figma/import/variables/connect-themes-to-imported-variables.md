@@ -50,7 +50,7 @@ After the Import is complete, in the Plugin you will see:&#x20;
 * Each Mode within the Variable Collection becomes an individual Token Set, with the Set name matching the Mode name, nested within the folder name matching the collection name.&#x20;
 * Each Variable is created as a Design Token with the same name and value.&#x20;
 
-<figure><img src="../../../.gitbook/assets/Variables to Themes - Modes (Pro).png" alt=""><figcaption><p>Figma Variable Collection beside the Tokens Page in the Plugin. <br>The numbered annotations show the relationship between Variable Collection and Mode names to Token Set names. </p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/Variables to Token Sets - Collections + modes to sets.png" alt=""><figcaption><p>Figma Variable Collection beside the Tokens Page in the Plugin. <br>The numbered annotations show the relationship between Variable Collection and Mode names to Token Set names. </p></figcaption></figure>
 
 
 
