@@ -136,6 +136,7 @@
   * [Remove Sync Provider](token-storage/manage-sync-provider/remove.md)
 * [Sync Changes to Remote Storage - Push and Pull](token-storage/remote-push-pull-changes.md)
 * [Branch Switching (pro) - Version Control](token-storage/remote-branch-switch.md)
+* [Troubleshooting - Common Sync Provider Errors](token-storage/troubleshooting-common-sync-provider-errors.md)
 
 ## Inspect and Debug Tokens <a href="#debug" id="debug"></a>
 

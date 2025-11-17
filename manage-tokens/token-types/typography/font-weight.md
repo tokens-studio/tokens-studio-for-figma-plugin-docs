@@ -33,13 +33,11 @@ Font Weight in [Figma](https://help.figma.com/hc/en-us/articles/360039956634-Exp
 
 In [CSS](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style), `font-style` and `font-weight` are defined as independent properties.
 
+
+
 <table data-card-size="large" data-view="cards" data-full-width="true"><thead><tr><th></th><th data-hidden data-card-cover data-type="files"></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><p></p><p>Font Weight Tokens can be attached to String or Number Variables in Figma. </p></td><td><a href="../../../.gitbook/assets/card-header-figma-variables.png">card-header-figma-variables.png</a></td><td><a href="../../../figma/export/">export</a></td></tr></tbody></table>
 
-
-
 ***
-
-
 
 ### Possible values
 
@@ -83,7 +81,7 @@ You can enter any of these numeric raw values in the table below into the **Font
 
 
 
-<table><thead><tr><th width="208">Raw Numeric Value</th><th>Resolved Value</th></tr></thead><tbody><tr><td>100</td><td>Thin<br>Hairline</td></tr><tr><td>200</td><td>Extra Light<br>ExtraLight<br>Ultra Light<br>UltraLight<br>extraleicht</td></tr><tr><td>300</td><td>Light<br>leicht</td></tr><tr><td>400</td><td>Regular<br>Normal<br>buch</td></tr><tr><td>500</td><td>Medium<br>kraeftig<br>kräftig</td></tr><tr><td>600</td><td>Semibold<br>SemiBold<br>Semi Bold<br>DemiBold<br>Demi Bold<br>halbfett</td></tr><tr><td>700</td><td>Bold<br>dreiviertelfett</td></tr><tr><td>800</td><td>ExtraBold<br>Extra Bold<br>UltraBold<br>Ultra Bold<br>fett</td></tr><tr><td>900</td><td>Black<br>Heavy<br>extrafett</td></tr><tr><td>950</td><td>Extra Black<br>Ultra Black</td></tr></tbody></table>
+<table><thead><tr><th width="208">Raw Numeric Value</th><th>Resolved Value</th></tr></thead><tbody><tr><td>100</td><td>Thin<br>Hairline</td></tr><tr><td>200</td><td>Extra Light<br>ExtraLight<br>Ultra Light<br>UltraLight</td></tr><tr><td>300</td><td>Light</td></tr><tr><td>400</td><td>Regular<br>Normal</td></tr><tr><td>500</td><td>Medium</td></tr><tr><td>600</td><td>Semibold<br>SemiBold<br>Semi Bold<br>DemiBold<br>Demi Bold</td></tr><tr><td>700</td><td>Bold</td></tr><tr><td>800</td><td>ExtraBold<br>Extra Bold<br>UltraBold<br>Ultra Bold</td></tr><tr><td>900</td><td>Black<br>Heavy</td></tr><tr><td>950</td><td>Extra Black<br>Ultra Black</td></tr></tbody></table>
 
 
 
